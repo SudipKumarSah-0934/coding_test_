@@ -1,0 +1,34 @@
+name: coding_test_
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  animate_do: ^3.3.4
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^2.4.0
+  google_nav_bar: ^5.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/
+  
+flutter_native_splash:
+  android: true
+  ios: true
+  web: false
+  image: assets/splash.png
+  color: "#FFFFFF"
+  android_12:
+    image: assets/splash.png
+    color: "#FFFFFF"
