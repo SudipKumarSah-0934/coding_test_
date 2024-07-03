@@ -19,4 +19,4 @@ Weather App
  8. Added a "Refresh" button on the weather details screen to fetch updated weather data.
  9. Implemented shared prefrence for data persistence  to save the last searched city
 ## Installation
- - Clone and run directly
+ - Clone and run`
